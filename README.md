@@ -1,16 +1,18 @@
 # jenkins-fundamentals
 Basic setup of Jenkins using Docker
 
-Installation
-Build the Jenkins BlueOcean Docker Image (or pull and use the one I built)
+# Installation
+## Build the Jenkins BlueOcean Docker Image (or pull and use the one I'm using)
 
+```
 docker build -t myjenkins-blueocean:2.414.2 .
+```
 
-#IF you are having problems building the image yourself, you can pull from my registry (It is version 2.332.3-1 though, the original from the video)
+#IF you are having problems building the image yourself, you can pull from this authenticated registry (It is version 2.332.3-1)
 
 docker pull devopsjourney1/jenkins-blueocean:2.332.3-1 && docker tag devopsjourney1/jenkins-blueocean:2.332.3-1 myjenkins-blueocean:2.332.3-1
 
-Create the network 'jenkins'
+## Create the network 'jenkins'
 
 docker network create jenkins
 

@@ -1,4 +1,4 @@
-# jenkins-fundamentals
+# Jenkins-fundamentals
 This training covers a basic setup of Jenkins.
 
 # Installation

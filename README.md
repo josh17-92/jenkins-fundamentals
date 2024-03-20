@@ -8,7 +8,7 @@ Basic setup of Jenkins using Docker
 docker build -t myjenkins-blueocean:2.414.2 .
 ```
 
-#IF you are having problems building the image yourself, you can pull from this authenticated registry (It is version 2.332.3-1)
+If you are having problems building the image yourself, you can pull from the following authenticated registry (it is version 2.332.3-1)
 
 ```
 docker pull devopsjourney1/jenkins-blueocean:2.332.3-1 && docker tag devopsjourney1/jenkins-blueocean:2.332.3-1 myjenkins-blueocean:2.332.3-1

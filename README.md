@@ -1,5 +1,5 @@
 # jenkins-fundamentals
-Basic setup of Jenkins using Docker
+This training covers a basic setup of Jenkins.
 
 # Installation
 ## Build the Jenkins BlueOcean Docker Image (or pull and use the one I'm using)

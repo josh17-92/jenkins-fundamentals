@@ -1,8 +1,8 @@
 # Jenkins-fundamentals
 This training covers a basic setup of Jenkins.
 
-# Installation
-## Build the Jenkins BlueOcean Docker Image (or pull and use the one I'm using)
+## Installation
+### Build the Jenkins BlueOcean Docker Image (or pull and use the one I'm using)
 
 ```
 docker build -t myjenkins-blueocean:2.414.2 .
@@ -14,7 +14,7 @@ If you are having problems building the image yourself, you can pull from the fo
 docker pull devopsjourney1/jenkins-blueocean:2.332.3-1 && docker tag devopsjourney1/jenkins-blueocean:2.332.3-1 myjenkins-blueocean:2.332.3-1
 ```
 
-## Create the network 'jenkins'
+### Create the network 'jenkins'
 
 ```
 docker network create jenkins

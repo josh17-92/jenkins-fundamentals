@@ -1,5 +1,5 @@
 # Jenkins-fundamentals
-This training covers a basic setup of Jenkins, using a container environment hosted by Docker. Still, you can also install Jenkins directly on your machine using a Jenkins .war file, Tomcat, or Maven.
+This training covers a basic setup of Jenkins, using a containerized environment hosted by Docker. Still, you can also install Jenkins directly on your machine using a Jenkins .war file, Tomcat, or Maven.
 
 ## Installation
 ### Build the Jenkins BlueOcean Docker Image (or pull and use the one I'm using)

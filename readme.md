@@ -68,6 +68,10 @@ docker run -d --restart=always -p 127.0.0.1:2376:2375 --network jenkins -v /var/
 docker inspect <container_id> | grep IPAddress
 ```
 
+## Jenkins documentation reference for Docker installation
+
+https://www.jenkins.io/doc/book/installing/docker/
+
 ## Using a Jenkins Python Agent from an authenticated author 
 ```
 docker pull devopsjourney1/myjenkinsagents:python
